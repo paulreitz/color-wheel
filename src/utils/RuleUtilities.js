@@ -3,8 +3,9 @@ import Rules from '../interfaces/Rules';
 import { clampCircular } from './utils';
 
 export default (rule, colors, __saved, setColors) => {
-    // Don't save until the initial rules are worked out.
-    // This will prevent the incorrect values to be used while working on this
+    // This is set up to allow someone to save their setup per color scheme.
+    // Maybe I'll add this feature in, maybe I won't - depends on what feedback I get and how I feel.
+    // But, for now, this attrocity will stay here.
     if (false) { 
 
     }

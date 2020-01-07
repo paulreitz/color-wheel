@@ -16,6 +16,8 @@ export const clampCircular = (value) => {
 }
 
 export const getClosestArc = (a, b) => {
+    // Yes, there are better ways to do this
+    // but I sprained my trig-fu muscle building the color wheel
     let finalAnswer = 999999;
     [
         Math.abs((a - 360) - b),
