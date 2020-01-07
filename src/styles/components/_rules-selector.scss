@@ -1,0 +1,16 @@
+
+
+.rules-selector__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.rules-selector__form-label {
+    margin-bottom: $xs-size;
+}
+
+.rules-selector__form-name {
+    margin-left: $sm-size;
+    color: $dark-font-color;
+    font-weight: 600;
+}

@@ -1,0 +1,47 @@
+.demo {
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.demo__header {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: $sm-size $m-size;
+    width: 100%;
+}
+
+.demo--body {
+    width: 100%;
+    display: flex;
+}
+
+.demo--body__content {
+    margin-left: $sm-size;
+
+    h1 {
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+}
+
+.demo--body__aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.demo--body__aside-content {
+    width: 200px;
+    margin: $sm-size;
+    padding-left: $sm-size;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
+    }
+}

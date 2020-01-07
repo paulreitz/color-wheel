@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    background: $dark-bg-color;
+    padding: $m-size;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $light-font-color;
+}

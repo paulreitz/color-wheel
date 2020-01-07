@@ -1,0 +1,32 @@
+.setting {
+    margin-left: $m-size;
+    display: flex;
+}
+.setting__preview {
+    width: 50px;
+    height: 50px;
+    margin: $m-size;
+    border: 2px solid black;
+}
+
+.setting--widget {
+    color: $dark-font-color;
+}
+
+.setting--widget__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.setting--widget__controls {
+    font-size: 1.4rem;
+}
+
+.setting--widget__slider {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+
+

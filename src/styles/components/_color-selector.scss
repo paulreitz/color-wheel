@@ -1,0 +1,17 @@
+.color-selector {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.color-selector__indicator {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 3px solid $dark-bg-color;
+    border-radius: 50%;
+}
+
+.index-0 {
+    border-color: $light-bg-color;
+}
