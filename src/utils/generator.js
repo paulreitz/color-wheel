@@ -18,7 +18,8 @@ $darker-background: ${colorObject.darkerBackground.hex().toString()};
 $light-font: ${colorObject.lightFont.hex().toString()};
 $lighter-font: ${colorObject.lighterFont.hex().toString()};
 $dark-font: ${colorObject.darkFont.hex().toString()};
-$darker-font: ${colorObject.darkerFont.hex().toString()};`;
+$darker-font: ${colorObject.darkerFont.hex().toString()};
+$title-font: ${colorObject.titleFont.hex().toString()};`;
 }
 
 const generateLessCode = (colorObject) => {
@@ -32,5 +33,6 @@ const generateLessCode = (colorObject) => {
 @light-font: ${colorObject.lightFont.hex().toString()};
 @lighter-font: ${colorObject.lighterFont.hex().toString()};
 @dark-font: ${colorObject.darkFont.hex().toString()};
-@darker-font: ${colorObject.darkerFont.hex().toString()};`;
+@darker-font: ${colorObject.darkerFont.hex().toString()};
+@title-font: ${colorObject.titleFont.hex().toString()};`;
 }
